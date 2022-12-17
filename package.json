@@ -8,7 +8,7 @@
     "pocketbase": "./pocketbase serve",
     "browsersync": "browser-sync http://localhost:8090 --files 'pb_public/**/*'",
     "tailwind": "tailwindcss -i ./pb_public/src/input.css -o ./pb_public/dist/output.css --watch",
-    "start": "npm-run-all --parallel pocketbase browsersync tailwind"
+    "start": "npm-run-all --parallel pocketbase tailwind browsersync"
   },
   "author": "David Harboyan",
   "license": "ISC",
