@@ -4,7 +4,7 @@
   "description": "Project 4 for CPSC349",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vnu --skip-non-html --Werror pb_public/*.html && standard",
     "pocketbase": "./pocketbase serve",
     "browsersync": "browser-sync http://localhost:8090 --files 'pb_public/**/*'",
     "tailwind": "tailwindcss -i ./pb_public/src/input.css -o ./pb_public/dist/output.css --watch",

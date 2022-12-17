@@ -2,7 +2,7 @@
 module.exports = {
   content: ['pb_public/**/*.{html,js}'],
   theme: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }

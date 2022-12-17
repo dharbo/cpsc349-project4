@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>CPSC 349 - Project 4</title>
+    <title>View Tweets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="dist/output.css" rel="stylesheet">
 
@@ -16,18 +16,18 @@
         <div class="container mx-1 flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.html">
             <img src="logo.jpg" alt="Logo of application" class="object-fill w-16 rounded-full">
-            <span class="ml-3 text-xl">AppName</span>
+            <span class="ml-3 text-xl">PocketBase Tweeter</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <button class="border-4 border-black mr-5 inline-flex bg-white text-gray-900 py-2 px-6 focus:outline-none hover:bg-blue-700 hover:text-white rounded text-lg">Sign Out</button>
+              <a class="border-4 border-black mr-5 inline-flex bg-white text-gray-900 py-2 px-6 focus:outline-none hover:bg-blue-700 hover:text-white rounded text-lg" href="tweet.html">Add Tweet</a>
+            <button id="signOut" class="border-4 border-black mr-5 inline-flex bg-white text-gray-900 py-2 px-6 focus:outline-none hover:bg-blue-700 hover:text-white rounded text-lg">Sign Out</button>
           </nav>
         </div>
       </header>
 
+      <h1 class="text-center text-black font-bold text-3xl my-5">View Tweets!</h1>
 
-
-
-    <div id="root" class="text-blue-500">This is the Main Page!</div>
+    <main class="text-gray-600 body-font overflow-hidden flex flex-col justify-center"></main>
 
 </body>
 
